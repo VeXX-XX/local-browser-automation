@@ -1,0 +1,12 @@
+{
+  "timeout_ms": 10000,
+  "steps": [
+    {"action": "goto", "url": "https://example.com/"},
+    {
+      "action": "wait",
+      "selectors": [
+        {"by": "css", "value": "body"}
+      ]
+    }
+  ]
+}
